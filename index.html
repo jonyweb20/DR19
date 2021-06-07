@@ -8,12 +8,51 @@
 </head>
 <body>
    <div class="block">
-        <h2>Задание №5</h2>
+        <h2>Задание №1</h2>
         <h3>Вывести факториал числа</h3>
-        <p>Ввести число: <input type="text" placeholder="Введите число" id="n1"></p>
-        <button onclick="factory">Показать</button>
+        <p>Ввести число: <label for="n1"></label><input type="text" placeholder="Введите число" id="n1"></p>
+        <button onclick="factory()">Показать</button>
         <hr>
         <p id="out1">Результат: </p>
-    </div> 
+    </div>
+   <div class="block">
+       <h2>Задание №2</h2>
+       <h3>Выводит все числа из заданного пользователем диапазона в прямом порядке</h3>
+       <p>Ввести число: <label for="n2"></label><input type="text" placeholder="Введите число" id="n2"></p>
+       <p>Ввести число: <label for="n3"></label><input type="text" placeholder="Введите число" id="n3"></p>
+       <button onclick="numberRow()">Показать</button>
+       <hr>
+       <p id="out2">Результат в прямом порядке: </p>
+       <p id="out3">Результат в обратном порядке: </p>
+   </div>
+
+   <div class="block">
+       <h2>Задание №3</h2>
+       <h3>Выводит число в обратном порядке</h3>
+       <p>Ввести число: <label for="n4"></label><input type="text" placeholder="Введите число" id="n4"></p>
+       <button onclick="valueRow()">Показать</button>
+       <hr>
+       <p id="out4">Результат: </p>
+   </div>
+
+   <div class="block">
+       <h2>Задание №4</h2>
+       <h3>Выводит сумму цифр введеного числа</h3>
+       <p>Ввести число: <label for="n5"></label><input type="text" placeholder="Введите число" id="n5"></p>
+       <button onclick="sumRow()">Показать</button>
+       <button onclick="sumRowClear()">Сбросить</button>
+       <hr>
+       <p id="out5">Результат: </p>
+   </div>
+
+   <div class="block">
+       <h2>Задание №5</h2>
+       <h3>Выводит количество вложенных пар круглых скобок, в зависимости от введеного числа</h3>
+       <p>Ввести число: <label for="n6"></label><input type="text" placeholder="Введите число" id="n6"></p>
+       <button onclick="roundBracket()">Показать</button>
+       <button onclick="roundBracketClear()">Сбросить</button>
+       <hr>
+       <p id="out6">Результат: </p>
+   </div>
 </body>
 </html>
